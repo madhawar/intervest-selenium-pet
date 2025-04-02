@@ -47,7 +47,7 @@ Type of testing. Parameters supported:
 Environment that need to be tested. Example:
 
 ```java
-mvn clean test -Dbrowser=headless -DsuiteXmlFile=Regression.xml -Denvironment=exaltwebuat.petsure.com
+mvn clean test -Dbrowser=headless -DsuiteXmlFile=Regression.xml -Denvironment=exaltwebuat.pet.com
 ```
 
 ### Jenkins
@@ -67,7 +67,7 @@ H H * * *
 * Build > Invoke top-level Maven targets
 
 ```java
-clean test -Dbrowser=headless -DsuiteXmlFile=Regression.xml -Denvironment=exaltwebuat.petsure.com
+clean test -Dbrowser=headless -DsuiteXmlFile=Regression.xml -Denvironment=exaltwebuat.pet.com
 ```
 
 * Post-build Actions > Publish JUnit test results report > Test report XMLs
