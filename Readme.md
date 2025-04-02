@@ -1,4 +1,4 @@
-# Petsure Web UI Automation
+# Pet Web UI Automation
 
 This automation framework employs Java/ Selenium/ TestNG/ Maven/ Log4j
 
